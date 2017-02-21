@@ -1,0 +1,33 @@
+{
+  "name": "es6-babel-node-debug",
+  "version": "1.0.0",
+  "description": "如何在 webStorm 中使用 babel-node 调试 ES6代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tangdaohai/es6-babel-node-debug.git"
+  },
+  "keywords": [
+    "babel",
+    "babel-debug",
+    "es6",
+    "node-debug"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tangdaohai/es6-babel-node-debug/issues"
+  },
+  "homepage": "https://github.com/tangdaohai/es6-babel-node-debug#readme",
+  "dependencies": {
+    "koa": "^2.0.0-alpha.8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0"
+  }
+}
